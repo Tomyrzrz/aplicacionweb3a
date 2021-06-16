@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+header, nav, section, article, aside, footer{
+    display: block;
+}
+
+#contenedor{
+    width: 950px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 25px;
+}
+
+#cabecera{
+    background-color: tomato;
+    height: 85px;
+}
+
+
+

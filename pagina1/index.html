@@ -9,12 +9,29 @@
         <meta name="author" content="Timoteo Ruiz Ruiz" />
         <meta name="copyright" content="Tom Rvys" />
 
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
-    
+        <style>
+            body {
+                padding-left: 15%;
+                font-family: cursive;
+                font-size: 18px;
+                color: rgb(75, 74, 74);
+            }
+            table, th, td {
+                border: 1px solid blue;
+                padding: 20px;
+                text-align: center;
+                border-spacing: 5px;
+            }
+            th {
+                font-size: 25px;
+                color: crimson;
+            }
+        </style>
+
+
     </head>
 
-    <body style="padding-left: 200px;">   <!-- Es el contenido de la pagina -->
+    <body>   <!-- Es el contenido de la pagina -->
         <h1> Hola Mundo HTML5 </h1>     <!-- Solo un h1 por pagina web-->
         <h2> Este es un título del tipo h2 </h2>    <!--Para etiquetas de titulos-->
         <h3> Aquí el título de nivel 3 de pingüino. </h3>
@@ -113,21 +130,63 @@
         <img src="./imagenes/carro.jpg" alt="Imagen Tic 2" width="200" height="120">
         <img src="./../pagina2/imagenes/tic3.jpg" alt="Imagen 3 de Tic" width="200" height="130">
 
-        <img src="https://www.imagen.com.mx/assets/img/imagen_share.png" alt="Imagen de internet">
+        <img src="https://www.imagen.com.mx/assets/img/imagen_share.png" width="300" height="200" alt="Imagen de internet">
 
         <h3>Anclas o Enlaces</h3>
         <a href="./contacto.html"> Enlace a Contacto click Aqui </a>
         <br> <br>
         <a href="https://www.getbootstrap.com/" target="_blank"> Enlace a Bootstrap </a>
 
-        <p>Este es le primer cambio de mi archivo en el repositorio</p>
-        <p>Este es el segundo commit que vamos a hacer, aqui ya tenemos un chat</p>
-    </body>
+        <h3>Audio y Video</h3>
+        <img src="./imagenes/ewsmye.gif" width="300" height="200" alt="Imagen animada">
+        
+        <audio src="./audios/a_lo_lejos.mp3" controls autoplay>
+            <source src="./audios/todo_de_ti.mp3" type="audio/mpeg">
+            <source src="./audios/a_lo_lejos.mp3" type="audio/mpeg" >
+            <source src="./audios/todo_de_ti.mp3" type="audio/mpeg" > 
+        </audio>
 
-    <!-- git init       esto para inicializar
-        git add .       es agregar al stage todos los archivos
-        git commit - m "Mensaje"     confirmar lso cambios en el repositorio
-    -->
+        <video src="./videos/video1.mp4" controls autoplay muted width="400" height="300">
+            <source src="./videos/video1.mp4" type="video/mp4" >
+        </video>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/LBfN5lMP4Hc" 
+        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen></iframe>
+
+        <h3>Tablas</h3>
+        <table>
+            <thead>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Matricula</th>
+                <th>Calificación</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Alex</td>
+                    <td>Camacho</td>
+                    <td>UTOM200008TI</td>
+                    <td>3.0</td>
+                </tr>
+                <tr>
+                    <td>Alondra</td>
+                    <td>Alanis</td>
+                    <td>UTOM20000TI</td>
+                    <td>2.4</td>
+                </tr>
+                <tr>
+                    <td>Cielo</td>
+                    <td>Medina</td>
+                    <td>UTOM200013TI</td>
+                    <td>2.6</td>
+                </tr>
+            </tbody>
+        </table>
+
+
+
+    </body>
     
 
 </html>
