@@ -112,6 +112,17 @@ a img {
     padding: 10px 0;
 }
 
+#caja-presentacion {
+    width: 470px;
+    float: left;
+}
+
+#caja-presentacion h1{
+    font-size: 41px;
+    color: azure;
+    font-weight: bolder;
+}
+
 
 
 
