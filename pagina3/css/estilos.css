@@ -101,6 +101,17 @@ a img {
     text-decoration: none;
 }
 
+.titulo-cuerpo {
+    display: block;
+    font-size: 30px;
+    color: #6D6D6D;
+}
+
+.cajas {
+    border-bottom: 5px solid #e02e0a;
+    padding: 10px 0;
+}
+
 
 
 
