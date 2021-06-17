@@ -1,5 +1,4 @@
-config/local
+config/local/*
 imagenes/prueba/*.jpg
 imagenes/prueba/*.png
-config.js
 *.log*
