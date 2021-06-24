@@ -4,6 +4,10 @@ header, nav, section, article, aside, footer{
     display: block;
 }
 
+.limpiar{
+    clear: both;
+}
+
 body {
     background: #e02e0a;  /* Fondos */
     margin: 30px;       /*Espacios al exterior.*/
@@ -187,6 +191,126 @@ textarea:focus, textarea:hover, textarea:active{
     color: #333;
     border: inset;
 }
+
+.cajas {
+    border-bottom: 5px solid #a60506;
+    padding: 10px 0;
+}
+
+#caja-presentacion {
+    width: 470px;
+    float: left;
+}
+
+#caja-presentacion h2 {
+    font-size: 42px;
+    color: #a60506;
+    font-weight: normal;
+}
+
+#caja-presentacion p{
+    text-align: justify;
+    font-size: 14px;
+    color: #000000;
+}
+
+#banner {
+    width: 440px;
+    float: right;
+    margin-top: 54px;
+}
+
+.caja-proyecto{
+    width: 420px;
+    float: left;
+    border-top: 1px solid #a60506;
+    margin-top: 5px;
+    margin-right: 50px;
+    padding-top: 16px;
+}
+
+.caja-proyecto h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    color: #a64e06;
+    text-align: center;
+    margin: 6px;
+}
+
+.caja-proyecto p a{
+    color: #848484;
+    text-decoration: none;
+}
+
+.caja-proyecto p {
+    text-align: center;
+}
+
+/*Diseño del pie de pagina*/
+#pie-pagina {
+    height: 90px;
+    border-top: 5px solid #a60506;
+    margin-top: 30px;
+}
+
+#pie-pagina .menu-pie {
+    width: 570px;
+    height: 60px;
+    display: block;
+    background-color: #a60506;
+    float: left;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    padding-top: 20px;
+}
+
+#pie-pagina .menu-pie li{
+    float: left;
+}
+
+#pie-pagina .menu-pie li a {
+    line-height: 40px;
+    display: block;
+    padding: 0 25px;
+    border-right: 4px solid #FFF;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    color: #FFF;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#pie-pagina .menu-pie li a:hover {
+    color: #222222;
+    text-shadow: 2px 2px 2px #000;
+}
+
+#pie-pagina .pie-sociales{
+    width: 150px;
+    display: block;
+    float: right;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    padding-top: 19px;
+}
+
+#pie-pagina .pie-sociales li{
+    float: right;
+}
+
+#pie-pagina .menu-pie li a{
+    width: 45px;
+    height: 45px;
+    display: block;
+    float: right;
+    margin-left: 6px;
+}
+
+
+
+
 
 
 
